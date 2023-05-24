@@ -14,7 +14,7 @@ function App() {
   const [isSunUp, setIsSunUp] = useState(null)
 // search function - returns current weather and forecast w/ local time
   const searchClick = () => {
-    fetch(`http://api.weatherapi.com/v1/forecast.json?key=5ae7beb653a345a79c472533231805&q=${search}&days=7&aqi=no&alerts=no`)
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=5ae7beb653a345a79c472533231805&q=${search}&days=7&aqi=no&alerts=no`)
       .then((res) => res.json())
       .then((result) => {
         getWeatherData(result)
