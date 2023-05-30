@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Weather App - README</title>
 </head>
 <body>
   <h1>Weather App</h1>
